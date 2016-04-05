@@ -1,7 +1,5 @@
 library(shiny)
 
-
-
 shinyUI(
   headerPanel('Money Changer Service'),
   
