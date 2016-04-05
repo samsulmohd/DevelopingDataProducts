@@ -8,8 +8,8 @@ shinyUI(pageWithSidebar(
   sidebarPanel(
     h4('How much do you want to convert?'),
     numericInput('amount', 'Amount in USD', 1),
-    numericInput('currency', 'MYR', 3.9)
-#    selectInput('currency', label='Currency to convert', selected="MYR", choices=c("MYR","THB","IDR","SGD","PHP"))
+#   numericInput('currency', 'MYR', 3.9)
+    selectInput('currency', label='Currency to convert', selected="MYR", choices=c("MYR","THB","IDR","SGD","PHP"))
   ),
   
   mainPanel(
