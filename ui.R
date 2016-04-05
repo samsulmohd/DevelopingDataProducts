@@ -1,19 +1,19 @@
 library(shiny)
+rate<-read.csv("data.csv")
 
-shinyUI(
-  headerPanel('Money Changer Service'),
+shinyUI(pageWithSidebar(
+  
+  headerPanel("Money Changer Service"),
   
   sidebarPanel(
-    h4('How much you want to convert?'),
-    numericInput('amount', 'in USD', 1),
-    
-    selectInput('curency', label='Currency', selected=MYR, choices=c(MYR,THB,IDR,SGD,PHP))
-    
-    
+    h4('How much do you want to convert?'),
+    numericInput('amount', 'Amount in USD', 1),
+    numericInput('currency', 'MYR', 3.9)
+#    selectInput('currency', label='Currency to convert', selected="MYR", choices=c("MYR","THB","IDR","SGD","PHP"))
   ),
-
+  
   mainPanel(
-    h4('You get'),
-    textOutput('YouGet'),
-  ),
-)
+    h4('You Get'),
+    textOutput("youget")
+  )
+))

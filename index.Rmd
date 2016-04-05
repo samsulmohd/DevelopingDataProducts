@@ -1,0 +1,58 @@
+---
+title       : Developing Data Products Assignment
+subtitle    : Money Changer Service
+author      : Shamsul
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Introduction
+
+This presentation is part of the assignment.
+
+Part 1 is to create Shiny application.
+
+Part 2 is to create this presentation.
+
+
+---
+
+## Part 1 Introduction
+
+I'm using Shiny application to create "Money Changer Service"
+
+By entering ammount in USD, you can calculate the exchange in below curency
+
++ Malaysian Ringgit, MYR
++ Baht, THB
++ Rupiah, IDR
++ Singapore Dollar, SGD
++ Philippine Peso,PHP
+
+---
+
+## Part 1 Dataset
+
+```{r}
+rate<-read.csv("data.csv")
+rate
+```
+
+---
+
+## Conclusion
+
+Unfortunately, I didn't get the result due to 
+Error: non-numeric argument to binary operator
+
+Hopefuly I have more time to continue solve this error.
+
+---
+
+## Thank You
+

@@ -1,6 +1,7 @@
-UNITED STATES,US Dollar,USD,1
-MALAYSIA,Malaysian Ringgit,MYR,3.9
-THAILAND,Baht,THB,35.23
-INDONESIA,Rupiah,IDR,13122.5
-SINGAPORE,Singapore Dollar,SGD,1.35
-PHILIPPINES,Philippine Peso,PHP,46.19
+"Country","Currency","Symbol","Rate"
+"UNITED STATES","US Dollar","USD",1
+"MALAYSIA","Malaysian Ringgit","MYR",3.9
+"THAILAND","Baht","THB",35.23
+"INDONESIA","Rupiah","IDR",13122.5
+"SINGAPORE","Singapore Dollar","SGD",1.35
+"PHILIPPINES","Philippine Peso","PHP",46.19

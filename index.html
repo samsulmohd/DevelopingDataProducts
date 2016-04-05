@@ -1,7 +1,174 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Developing Data Products Assignment</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<head>
+  <title>Developing Data Products Assignment</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Developing Data Products Assignment">
+  <meta name="author" content="Shamsul">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Developing Data Products Assignment</h1>
+    <h2>Money Changer Service</h2>
+    <p>Shamsul<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Introduction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This presentation is part of the assignment.</p>
+
+<p>Part 1 is to create Shiny application.</p>
+
+<p>Part 2 is to create this presentation.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Part 1 Introduction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>I&#39;m using Shiny application to create &quot;Money Changer Service&quot;</p>
+
+<p>By entering ammount in USD, you can calculate the exchange in below curency</p>
+
+<ul>
+<li>Malaysian Ringgit, MYR</li>
+<li>Baht, THB</li>
+<li>Rupiah, IDR</li>
+<li>Singapore Dollar, SGD</li>
+<li>Philippine Peso,PHP</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Part 1 Dataset</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code class="r">rate&lt;-read.csv(&quot;data.csv&quot;)
+rate
+</code></pre>
+
+<pre><code>##         Country          Currency Symbol     Rate
+## 1 UNITED STATES         US Dollar    USD     1.00
+## 2      MALAYSIA Malaysian Ringgit    MYR     3.90
+## 3      THAILAND              Baht    THB    35.23
+## 4     INDONESIA            Rupiah    IDR 13122.50
+## 5     SINGAPORE  Singapore Dollar    SGD     1.35
+## 6   PHILIPPINES   Philippine Peso    PHP    46.19
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Conclusion</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Unfortunately, I didn&#39;t get the result due to 
+Error: non-numeric argument to binary operator</p>
+
+<p>Hopefuly I have more time to continue solve this error.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Thank You</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introduction'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Part 1 Introduction'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Part 1 Dataset'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Conclusion'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Thank You'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
 </body>
-</html>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

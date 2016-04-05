@@ -1,14 +1,14 @@
 library(shiny)
+rate<-read.csv("data.csv")
 
 shinyServer(
+  
   function(input, output){
-    output$YouGet <- renderText({ calculateRate(input$amount, input$currency)})
+    output$youget <- renderText({calculateRate(input$currency, input$amount)})
+
+    calculateRate <- function (currency, amount){
+      result <- currency * amount
+      return (round(result, digits = 2))
+    } 
   }
 )
-
-calculateRate <- function (amount, currency) 
-{
-  
-  result <- amount * currency
-  return(round(result, digits = 2))
-}
